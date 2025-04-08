@@ -1,9 +1,0 @@
-/Users/pedro/Documents/qima/src/main/java/com/qima/qima/QimaApplication.java
-/Users/pedro/Documents/qima/src/main/java/com/qima/qima/config/SecurityConfig.java
-/Users/pedro/Documents/qima/src/main/java/com/qima/qima/controller/ProductController.java
-/Users/pedro/Documents/qima/src/main/java/com/qima/qima/domain/Category.java
-/Users/pedro/Documents/qima/src/main/java/com/qima/qima/domain/Product.java
-/Users/pedro/Documents/qima/src/main/java/com/qima/qima/exception/ResourceNotFoundException.java
-/Users/pedro/Documents/qima/src/main/java/com/qima/qima/repository/CategoryRepository.java
-/Users/pedro/Documents/qima/src/main/java/com/qima/qima/repository/ProductRepository.java
-/Users/pedro/Documents/qima/src/main/java/com/qima/qima/service/ProductService.java
