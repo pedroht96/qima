@@ -1,0 +1,9 @@
+com/qima/qima/config/SecurityConfig.class
+com/qima/qima/exception/ResourceNotFoundException.class
+com/qima/qima/repository/ProductRepository.class
+com/qima/qima/repository/CategoryRepository.class
+com/qima/qima/service/ProductService.class
+com/qima/qima/domain/Product.class
+com/qima/qima/QimaApplication.class
+com/qima/qima/controller/ProductController.class
+com/qima/qima/domain/Category.class

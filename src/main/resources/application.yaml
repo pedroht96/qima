@@ -1,0 +1,29 @@
+server:
+  port: 8080
+  address: 127.0.0.1
+
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/product_db
+    username: postgres
+    password: postgres
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: none
+    show-sql: true
+  flyway:
+    schemas: product_db
+    defaultSchema: product_db
+    clean-disabled: true
+    enabled: true
+    locations: classpath:db/migration
+    clean-on-validation-error: true
+    baseline-on-migrate: true
+    # ignoreMigrationPatterns: missing,ignored,failed,repeatable:missing
+
+app:
+  security:
+    user:
+      name: admin
+      password: admin
